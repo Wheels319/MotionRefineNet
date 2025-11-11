@@ -5,6 +5,10 @@ Capturing human motion with existing monocular estimators often results in large
 
 # Quick Start
 
+Dataset:
+
+Please refer to [Smoothnet: A plug-and-play network for refining human poses in videos](https://github.com/cure-lab/SmoothNet?tab=readme-ov-file).
+
 Training:
 
 ```python
