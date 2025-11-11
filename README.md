@@ -8,16 +8,29 @@ Capturing human motion with existing monocular estimators often results in large
 
 # Quick Start
 
-Dataset:
+1. **Download Datasets**:
 
-Please refer to [Smoothnet: A plug-and-play network for refining human poses in videos](https://github.com/cure-lab/SmoothNet?tab=readme-ov-file).
+  Please refer to [Smoothnet: A plug-and-play network for refining human poses in videos](https://github.com/cure-lab/SmoothNet?tab=readme-ov-file).
 
-Training:
+2. **Training (an example on aist_vibe_3d)**:
 
 ```python
 python train.py --cfg configs/aist_vibe_3D.yaml --dataset_name aist --estimator vibe --body_representation 3D --slide_window_size 32
 ```
 
+
+
+# Citation
+If you find this useful in your research, please consider citing:
+```
+@inproceedings{li2025motionrefinenet,
+  title={MotionRefineNet: Fine-Grained Pose Sequence Smoothing and Refinement},
+  author={Li, Haolun and Liu, Weihuang and Liu, Jiateng and Tang, Zhenhua and Pun, Chi-Man and Miao, Qiguang and Xu, Feng and Gao, Hao},
+  booktitle={Proceedings of the 33rd ACM International Conference on Multimedia},
+  pages={5--14},
+  year={2025}
+}
+```
 
 
 # License
